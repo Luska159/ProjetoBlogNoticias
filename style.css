@@ -11,13 +11,16 @@
     text-decoration: none;
     list-style: none;
 }
+body {
+    width: 90%;
+    height: 100%;
+}
 .menuCompleto {
     background: #000000;
     background: -webkit-linear-gradient(to right, #434343, #000000); 
-    background: linear-gradient(to right, #434343, #000000); 
+    background: linear-gradient(to right, #434343, #000000);
     display: flex;
-    margin: 0;
-    padding: 0px;
+    width: 218.5vh; 
 }
 .logo h1 {
     color: cornsilk;
@@ -34,7 +37,14 @@
     margin: auto;
     width: auto;
 }
-
+.menu ul li {
+    display: inline-flex;
+    padding-left: 1rem;
+    position: relative;
+    left: 19rem;
+    align-items: center;
+    justify-content: center;
+}
 .menu ul li a {
     color: cornsilk;
     font-family: var(--font-secundary);
@@ -77,3 +87,96 @@
     left: 100px; 
 }
 
+/*BOXES DE NOTÍCIAS*/
+.noticias{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 80px;
+    
+}
+.not1 {
+    background-color: #000000ab;
+    border:#000000 solid 1px;
+    width: 20rem;
+    height: 17rem;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.not1 img{
+    width: 98%;
+    border: orange solid 3px;
+
+}
+.texto h3{
+    color: white;
+    font-size: .87rem;
+    text-align: center;
+    margin-top: 4px;
+
+}
+.not2 {
+    background-color: #43434341;
+    border:#000000 solid 1px;
+    width: 20rem;
+    height: 17rem;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.not3 {
+    background-color: #43434341;
+    border:#000000 solid 1px;
+    width: 20rem;
+    height: 17rem;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.not4{
+    background-color: #43434341;
+    border:#000000 solid 1px;
+    width: 20rem;
+    height: 17rem;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.not5 {
+    background-color: #43434341;
+    border:#000000 solid 1px;
+    width: 20rem;
+    height: 17rem;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.not6 {
+    background-color: #43434341;
+    border:#000000 solid 1px;
+    width: 20rem;
+    height: 17rem;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.not7 {
+    background-color: #43434341;
+    border:#000000 solid 1px;
+    width: 20rem;
+    height: 17rem;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.not8 {
+    background-color: #43434341;
+    border:#000000 solid 1px;
+    width: 20rem;
+    height: 17rem;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.not9 {
+    background-color: #43434341;
+    border:#000000 solid 1px;
+    width: 20rem;
+    height: 17rem;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
