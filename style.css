@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2? family = Oswald: wght @ 600 & display = swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
 :root {
     --font-primary: 'Oswald', sans-serif;
@@ -12,15 +13,16 @@
     list-style: none;
 }
 body {
-    width: 90%;
+    width: 85%;
     height: 100%;
+    background-color: #43434321;
 }
 .menuCompleto {
     background: #000000;
     background: -webkit-linear-gradient(to right, #434343, #000000); 
     background: linear-gradient(to right, #434343, #000000);
     display: flex;
-    width: 218.5vh; 
+    width: 218.5vh;
 }
 .logo h1 {
     color: cornsilk;
@@ -93,90 +95,84 @@ body {
     display: flex;
     width: 100%;
     margin-left: 200px;
-    margin-top: 80px;
-    
+    margin-top: 80px;  
 }
-.not1 {
-    background-color: #000000ab;
+.not {
+    background-color: #000000;
     border:#000000 solid 1px;
     width: 20rem;
     height: 17rem;
     margin-right: 20px;
     margin-bottom: 30px;
 }
-.not1 img{
-    width: 98%;
-    border: orange solid 3px;
-
-}
 .texto h3{
+    background-color: #000000;
+    font-family: var(--font-secundary);
     color: white;
     font-size: .87rem;
     text-align: center;
     margin-top: 4px;
+    
+}
+.img-wrapper1 img {
+    width: 98%;
+    height: 33.7vh;
+    object-fit: cover;
+    border: orange solid 3px;
+}
 
+/*RODAPÉ*/
+
+section{
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000); 
+    background: linear-gradient(to right, #434343, #000000);
+    width: 86rem;
+    height: 16vh;
+    position: sticky;
+    bottom: -10rem;
+    right: 20rem;
 }
-.not2 {
-    background-color: #43434341;
-    border:#000000 solid 1px;
-    width: 20rem;
-    height: 17rem;
-    margin-right: 20px;
-    margin-bottom: 30px;
+.social-media {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    right: 5rem;
+    display: flex;
+    justify-content: space-evenly;
 }
-.not3 {
-    background-color: #43434341;
-    border:#000000 solid 1px;
-    width: 20rem;
-    height: 17rem;
-    margin-right: 20px;
-    margin-bottom: 30px;
+.social-media i{
+    margin-top: 34px;
+    margin-left: 28px;
+    color: white;
+    height: 2rem; 
+    width: 2rem;
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: color 1s; 
 }
-.not4{
-    background-color: #43434341;
-    border:#000000 solid 1px;
-    width: 20rem;
-    height: 17rem;
-    margin-right: 20px;
-    margin-bottom: 30px;
+.social-media i:hover{
+    color: orange;
 }
-.not5 {
-    background-color: #43434341;
-    border:#000000 solid 1px;
-    width: 20rem;
-    height: 17rem;
-    margin-right: 20px;
-    margin-bottom: 30px;
+
+
+/*ANIMAÇÃO DAS IMAGENS*/
+
+@keyframes aproximaçao {
+    0%{
+        transform: scale(1.01);
+    }100%{
+        transform: scale(1);
+    }
 }
-.not6 {
-    background-color: #43434341;
-    border:#000000 solid 1px;
-    width: 20rem;
-    height: 17rem;
-    margin-right: 20px;
-    margin-bottom: 30px;
+
+.img-wrapper img:hover{
+    animation: aproximaçao 20s forwards;
 }
-.not7 {
-    background-color: #43434341;
-    border:#000000 solid 1px;
-    width: 20rem;
-    height: 17rem;
-    margin-right: 20px;
-    margin-bottom: 30px;
-}
-.not8 {
-    background-color: #43434341;
-    border:#000000 solid 1px;
-    width: 20rem;
-    height: 17rem;
-    margin-right: 20px;
-    margin-bottom: 30px;
-}
-.not9 {
-    background-color: #43434341;
-    border:#000000 solid 1px;
-    width: 20rem;
-    height: 17rem;
-    margin-right: 20px;
-    margin-bottom: 30px;
+
+.img-wrapper1 img:hover{
+    animation: aproximaçao 20s forwards;
 }
