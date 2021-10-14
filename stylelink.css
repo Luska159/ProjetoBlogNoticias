@@ -22,7 +22,7 @@ body {
     background: -webkit-linear-gradient(to right, #434343, #000000); 
     background: linear-gradient(to right, #434343, #000000);
     display: flex;
-    width: 215vh;
+    width: 218.5vh;
 }
 .logo h1 {
     color: cornsilk;
@@ -41,9 +41,9 @@ body {
 }
 .menu ul li {
     display: inline-flex;
-    margin-left: 1rem;
+    padding-left: 1rem;
     position: relative;
-    left: 55vh;
+    left: 20vh;
     align-items: center;
     justify-content: center;
 }
@@ -79,50 +79,6 @@ body {
     }
 }
 
-.mensagem h3 {
-    color: rgb(250, 163, 1);
-    font-size: 1.2rem;
-    font-weight: bolder;
-    font-family: var(--font-secundary);
-    position: relative;
-    top: 50px;
-    left: 100px; 
-}
-
-/*BOXES DE NOTÍCIAS*/
-.noticias{
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 100%;
-    margin-left: 100px;
-    margin-top: 80px;  
-}
-.not {
-    background-color: #000000;
-    border:#000000 solid 1px;
-    width: 19rem;
-    height: 17rem;
-    margin-right: 20px;
-    margin-bottom: 30px;
-}
-.texto h3{
-    background-color: #000000;
-    font-family: var(--font-secundary);
-    color: white;
-    font-size: .87rem;
-    text-align: center;
-    margin-top: 4px;
-    
-}
-.img-wrapper1 img {
-    width: 98%;
-    height: 33.7vh;
-    object-fit: cover;
-    border: orange solid 3px;
-}
-
 /*RODAPÉ*/
 
 .containerfooter {
@@ -132,8 +88,9 @@ body {
     height: 17vh;
     position: relative;
     margin: 0;
+    padding-bottom: 3px;
     display: flex;
-    width: 215vh;
+    width: 218.5vh;
 }
 .social-media {
     position: absolute;
@@ -144,13 +101,13 @@ body {
     justify-content: space-evenly;
 }
 .social-media i{
+    margin-left: 28px;
     color: white;
-    font-size: 2.3rem;
     height: 2rem; 
     width: 2rem;
+    font-size: 2.3rem;
     position: relative;
-    top: 2.5rem;
-    margin-left: 28px;
+    top: 50px;
     border-radius: 50%;
     transition: color 1s; 
 }
@@ -170,22 +127,3 @@ body {
 #telefone{
     margin-top: .6rem;
 }
-
-/*ANIMAÇÃO DAS IMAGENS*/
-
-@keyframes aproximaçao {
-    0%{
-        transform: scale(1.01);
-    }100%{
-        transform: scale(1);
-    }
-}
-
-.img-wrapper img:hover{
-    animation: aproximaçao 20s forwards;
-}
-
-.img-wrapper1 img:hover{
-    animation: aproximaçao 20s forwards;
-}
-
