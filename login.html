@@ -30,11 +30,21 @@
     </header>
     <section>
         <div class="boxLogin">
-            Nome: <input type="text" name="NomeUsuario" id="inpUsuario">
-            Data de nascimento: <input type="date" name="nascimento" id="inpNascimento">
-            Senha: <input type="password" name="senha" id="inpSenha">
-            E-mail: <input type="email" name="email" id="inpEmail">
-
+            <h2>Cadastro</h2>
+            <div class="cadastro">
+                <label for="nome">Nome: </label><input type="text" name="NomeUsuario" id="inpUsuario">
+            </div>
+            <div class="cadastro">
+                <label for="nascimento">Nascimento:</label><input type="date" name="nascimento"
+                    id="inpNascimento">
+            </div>
+            <div class="cadastro">
+                <label for="senha">Senha: </label> <input type="password" name="senha" id="inpSenha">
+            </div>
+            <div class="cadastro">
+                <label for="E-mail">E-mail: </label> <input type="email" name="email" id="inpEmail">
+            </div>
+            <button class="btn">Confirmar</button>
         </div>
     </section>
     <footer>
