@@ -20,9 +20,9 @@ body {
     background-color: #43434321;
 }
 .menuCompleto {
-    background: #000000;
-    background: -webkit-linear-gradient(to right, #434343, #000000); 
-    background: linear-gradient(to right, #434343, #000000);
+    background: #232526;
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);
+    background: linear-gradient(to bottom, #414345, #232526);
     display: flex;
     width: 218.5vh;
 }
@@ -88,16 +88,16 @@ body {
     display: block;
 }
 .boxLogin{
-    width: 30rem;
+    width: 23rem;
     border: solid 4px orange;
-    border-radius: 0px 20px 0px 20px;
+    border-radius: 80px 0px 80px 0px;
     text-align: center;
     background: #232526;
     background: -webkit-linear-gradient(to bottom, #414345, #232526);
     background: linear-gradient(to bottom, #414345, #232526);
-    padding: 2rem 0.1rem 4rem 0.1rem;
+    padding: 4rem 0rem 4rem 0rem;
     margin: 5rem;
-    left: 17rem;
+    left: 23rem;
     position: relative;
 }
 .boxLogin label {
@@ -120,6 +120,7 @@ body {
     border-left: #23252600 0px;
     border-right: #23252600 0px;
     margin-top: 20px;
+    padding: auto;
     background-color: #23252600;
     color: orange;
     outline: none;
@@ -136,21 +137,19 @@ body {
 .btn {
     background: #31313100;
     font-family: var(--font-terciary);
+    font-size: 1.3rem;
     color: orange;
-    padding: 10px;
     position: relative;
-    left: 1.8rem;
-    border-bottom: orange 2px solid;
-    border-top-color: #23252600;
-    border-right: #232526;
-    border-left: #232526;
+    left: 4rem;
+    margin-top: 3rem;
+    border: #23252600 0px solid;
 }
 /*RODAPÉ*/
 
 .containerfooter {
-    background: #000000;
-    background: -webkit-linear-gradient(to right, #434343, #000000); 
-    background: linear-gradient(to right, #434343, #000000);
+    background: #232526;
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);
+    background: linear-gradient(to bottom, #414345, #232526);    
     height: 17vh;
     position: relative;
     margin: 0;
@@ -173,7 +172,7 @@ body {
     width: 2rem;
     font-size: 2.3rem;
     position: relative;
-    top: 50px;
+    top: 40px;
     border-radius: 50%;
     transition: color 1s; 
 }

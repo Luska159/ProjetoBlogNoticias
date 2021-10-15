@@ -18,9 +18,9 @@ body {
     background-color: #43434321;
 }
 .menuCompleto {
-    background: #000000;
-    background: -webkit-linear-gradient(to right, #434343, #000000); 
-    background: linear-gradient(to right, #434343, #000000);
+    background: #232526;
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);
+    background: linear-gradient(to bottom, #414345, #232526);
     display: flex;
     width: 215vh;
 }
@@ -126,9 +126,9 @@ body {
 /*RODAPÉ*/
 
 .containerfooter {
-    background: #000000;
-    background: -webkit-linear-gradient(to right, #434343, #000000); 
-    background: linear-gradient(to right, #434343, #000000);
+    background: #232526;
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);
+    background: linear-gradient(to bottom, #414345, #232526);
     height: 17vh;
     position: relative;
     margin: 0;
