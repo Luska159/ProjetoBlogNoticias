@@ -26,23 +26,41 @@
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="#">NOTÍCIAS</a></li>
-                    <li><a href="#">CONTATO</a></li>
-                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
                 </ul>
             </div>
         </div>
     </header>
     <section>
+        <div class="tituloContato">
+            <h2>COMENTÁRIOS</h2>
+        </div>
         <div class="dadosDoComentarista">
             <input type="text" name="nome" id="Nome" placeholder="Nome">
             <input type="text" name="" id="Email" placeholder="E-mail">
             <input type="text" name="Assunto" id="Assunto" placeholder="Assunto">
         </div>
         <div class="caixaComent">
-            <input type="text" name="comentarios" class="caixa" placeholder="Escreva sua mensagem...">
+            <textarea name="comentario" id="comentario" cols="30" rows="20"
+                placeholder="Escreva sua mensagem aqui..."></textarea>
             <button id="btEnviar">Enviar</button>
         </div>
     </section>
+
+    <footer>
+        <div class="containerfooter">
+            <div class="contatos">
+                <h3 id="rua">Rua Alfredo da Rosa, 209</h3>
+                <h3 id="telefone">Telefone: (48) 98832-2039</h3>
+            </div>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-github-alt"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
